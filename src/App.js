@@ -1,5 +1,6 @@
 import "./styles.css";
 import Saludo from "./components/saludo.js";
+import Presentacion from "./components/Presentacion.js";
 
 function MiComponente() {
   return <h1>¡soy un componente!</h1>;
@@ -17,6 +18,9 @@ export default function App() {
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
       <Saludo />
+      <br></br>
+      <br></br>
+      <Presentacion />
     </div>
   );
 }
