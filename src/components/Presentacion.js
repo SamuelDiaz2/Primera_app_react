@@ -1,6 +1,6 @@
 function Presentacion() {
   return (
-    <div>
+    <div className="info-card">
       <h2>Sobre mi</h2>
       <p>
         <strong>Mi nombre:</strong>Samuel Diaz
